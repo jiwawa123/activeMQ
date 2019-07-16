@@ -41,7 +41,7 @@ public class ConsumerApp implements MessageListener {
         //给消费者设定监听对象
         subscriber.setMessageListener(me);
     }
-    
+
 
     @Override
     public void onMessage(Message message) {
